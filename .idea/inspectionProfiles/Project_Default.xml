@@ -1,0 +1,44 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <option name="myLocal" value="true" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="muted" />
+            <item index="7" class="java.lang.String" itemvalue="hgroup" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="13">
+            <item index="0" class="java.lang.String" itemvalue="sqlalchemy-migrate" />
+            <item index="1" class="java.lang.String" itemvalue="uwsgi" />
+            <item index="2" class="java.lang.String" itemvalue="guess_language" />
+            <item index="3" class="java.lang.String" itemvalue="flask-login" />
+            <item index="4" class="java.lang.String" itemvalue="flipflop" />
+            <item index="5" class="java.lang.String" itemvalue="flask-wtf" />
+            <item index="6" class="java.lang.String" itemvalue="backports.pbkdf2" />
+            <item index="7" class="java.lang.String" itemvalue="pyodbc" />
+            <item index="8" class="java.lang.String" itemvalue="flask-babel" />
+            <item index="9" class="java.lang.String" itemvalue="coverage" />
+            <item index="10" class="java.lang.String" itemvalue="flask-openid" />
+            <item index="11" class="java.lang.String" itemvalue="flask-mail" />
+            <item index="12" class="java.lang.String" itemvalue="flask-whooshalchemy" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
