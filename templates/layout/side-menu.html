@@ -1,0 +1,50 @@
+<div class="callout" id="side-menu-name">
+    :: site_name ::
+</div>
+<style>
+    #side-menu-name {
+        border: 0;}
+</style>
+
+
+
+<button class="close-button" aria-label="Close alert" type="button" data-toggle="offCanvasLeft">
+    <span aria-hidden="true">&times;</span>
+</button>
+<ul class="menu vertical">
+    <li><a href="#">Menu Item 1</a></li>
+    <li><a href="#">Menu Item 2</a></li>
+    <li><a href="#">Menu Item 3</a></li>
+    <li><a href="#">Menu Item 4</a></li>
+    <li><a href="#">Menu Item 5</a></li>
+</ul>
+
+<ul class="accordion" data-accordion role="tablist">
+    <li class="accordion-item is-active">
+        <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
+        <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Accordion
+            1</a>
+        <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
+        <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+            Panel 1. Lorem ipsum dolor
+        </div>
+    </li>
+    <li class="accordion-item">
+        <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
+        <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Accordion
+            1</a>
+        <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
+        <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+            Panel 2. Lorem ipsum dolor
+        </div>
+    </li>
+    <li class="accordion-item">
+        <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
+        <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Accordion
+            1</a>
+        <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
+        <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+            Panel 3. Lorem ipsum dolor
+        </div>
+    </li>
+</ul>

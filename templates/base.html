@@ -1,0 +1,37 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    {% include 'layout/header.html' %}
+    {% block custom_header %}
+    
+    {% endblock %}
+</head>
+<body id="app" v-cloak>
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+            <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas data-position="left">
+            {% include 'layout/side-menu.html' %}
+            </div>
+            <div class="off-canvas-content" data-off-canvas-content>
+
+                {% include 'layout/top-menu.html' %}
+
+                {% block main_content %}
+                
+                {% endblock %}
+                
+                {% include 'layout/footer.html' %}
+
+            </div>
+        </div>
+    </div>
+
+    {% include 'layout/scripts.html' %}
+    {% block custom_js %}
+        <script>
+{#            $('#side-menu-name').height($('#menu').height());#}
+            $('#side-menu-name').height($('#menu').height() - 16.8);
+        </script>
+    {% endblock %}
+</body>
+</html>
